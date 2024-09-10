@@ -1,0 +1,8 @@
+What is typescript? It is a development tool to help me for type safety of my project and also it helps in collaboration so your team knows what type to use.
+
+// to install typescript globally
+npm install -g typescript
+
+// install the typescript to the project
+tsc intro.ts                                        // command - name the file
+                                                    // converts intro.ts to javascript inside intro.js
