@@ -10,8 +10,9 @@ let num = 6;
 
 // NOTE: typescript knows what method to use if its a string e.g:
 greetings.toLocaleLowerCase();
-
-
 console.log(greetings, num);
-// used to remove error when using let
+
+// used to temporarily remove error when using let
 export {};
+
+

@@ -1,8 +1,47 @@
 What is typescript? It is a development tool to help me for type safety of my project and also it helps in collaboration so your team knows what type to use.
+Docs:   https://www.typescriptlang.org/docs/
 
+LEASON 1: COMMANDS 
 // to install typescript globally
 npm install -g typescript
 
-// install the typescript to the project
-tsc intro.ts                                        // command - name the file
+// runs the typecript
+tsc intro.ts                                        // command - name of the file
                                                     // converts intro.ts to javascript inside intro.js
+
+-----------------------------------------------------------------------------------------------
+
+LEASON 2: TYPES
+  Number    String    Boolean
+  Null      Undefine  Void
+  Object    Array     Tuples    ...
+  Any       Never     unknown
+
+Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+format 
+(     name:     type   =  value      )
+const fullName: string = 'Jessica Lee'
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 3: THE PRIMITIVES: string, number and boolean
+- typescript automatically provide variable type
+
+// GOOD PRACTICE
+let xNumId = 135.23
+
+// BAD PRACTICE
+let yNumId: number = 166.23; 
+
+Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 4: ANY (Not recommeded to use)
+- 'any' don't use type-checking
+- 'noImplicitAny' to flag any implicit 'any' as an error
+- in lesson 4 shows best practices on using 'any'
+
+DOCS: Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
