@@ -43,5 +43,20 @@ LESSON 4: ANY (Not recommeded to use)
 - 'noImplicitAny' to flag any implicit 'any' as an error
 - in lesson 4 shows best practices on using 'any'
 
-DOCS: Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 
+-----------------------------------------------------------------------------------------------
+
+LESSON 5: FUNCTIONS
+PART 1: Parameters type
+- 'string', 'boolean' and 'number
+
+PART 2: Return type
+- 'string', 'boolean', 'number, 'void' and 'never'
+
+Example: The inferred return type is void
+function getMultiply (val: number): void {
+ return;
+}
+
+Docs: https://www.typescriptlang.org/docs/handbook/2/functions.html#void
