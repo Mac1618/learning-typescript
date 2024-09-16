@@ -51,7 +51,7 @@ type User3 = {
 	email: string;
 	isActive: boolean;
 	credcardDetails?: number; // optional
-};    
+};
 
 // assinging value
 let myUser: User3 = {

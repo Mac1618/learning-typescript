@@ -81,4 +81,8 @@ Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-al
 
 -----------------------------------------------------------------------------------------------
 
-LESSON 7
+LESSON 7: ARRAYS
+- 'Array<number>' or 'string[]' both has same functionality
+- 'type aliases' can be used for complex arrays
+
+Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays
