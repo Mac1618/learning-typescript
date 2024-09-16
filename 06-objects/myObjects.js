@@ -14,10 +14,25 @@ var createUser = function (_a) {
 createUser({ name: 'Mac', isPaid: false });
 // BAD Practice or a BUG
 // createUser({ name: 'Warlock', isPaid: true,	email: 'mac@gmail.com', });
-// - this code works normal it gives an error if 'email' is not defined in paramater.
+// - this code works, it gives an error on 'email' because 'email' not defined in paramater.
 // createUser(newUser);
-// - here if we pass 'newUser' suddenly email is not giving me an error
+// - typescript should stop me from passing 'email'
 // Returning an object
 var createCourse = function () {
     return { name: 'Larl', price: 299 };
 };
+// passing the 'Form' in parameter and return type
+var createForm = function (user) {
+    return { name: 'Johnny', email: 'john@gmail.com', age: 35 };
+};
+createForm({ name: 'Johnny', email: 'john@gmail.com', age: 35 });
+// assinging value
+var myUser = {
+    _id: '52-143',
+    name: 'Alex',
+    email: 'a@a.com',
+    isActive: true,
+    // credcardDetails: 62143, // this is optional
+};
+// calling myUser
+myUser.name = 'New name'; //        this will work
