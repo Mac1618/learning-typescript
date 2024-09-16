@@ -60,3 +60,25 @@ function getMultiply (val: number): void {
 }
 
 Docs: https://www.typescriptlang.org/docs/handbook/2/functions.html#void
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 6: OBJECTS with functions (Type Aliases or you can also use Interface)
+Part 1: Passing an object type inside parameters of a function
+- avoiding bugs/ bad practices when passing object inside a method
+
+Part 2: Using 'type' to define that object variables and types
+- can be used in return type and parameter type
+
+Part 3: TYPE options and COMBINATIONS of type
+- uses of 'readonly' and 'optional' fields on 'type'
+- 'readonly' can only be seen/used in typescript not in js file
+- MIX and MATCH can be useful when utilizing an existing type
+
+Added readonly properties, optional fields, and combined types using intersections
+
+Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-aliases
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 7
