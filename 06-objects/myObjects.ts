@@ -23,5 +23,19 @@ const createCourse = (): { name: string; price: number } => {
 	return { name: 'Larl', price: 299 };
 };
 
+// PART 2: TYPE ALIASES
+// Defining the 'Form' variables and types
+type Form = {
+	name: string;
+	email: string;
+	age: number;
+};
+
+// passing the 'Form' in parameter and return type
+const createForm = (user: Form): Form => {
+	return { name: 'Johnny', email: 'john@gmail.com', age: 35 };
+};
+createForm({ name: 'Johnny', email: 'john@gmail.com', age: 35 });
+
 // to prevent errors
 export {};
