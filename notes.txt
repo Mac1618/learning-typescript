@@ -86,3 +86,12 @@ LESSON 7: ARRAYS
 - 'type aliases' can be used for complex arrays
 
 Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 8: UNIONS
+  - Unions is inclution of 1 or more data types
+
+Docs: https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html
+
+-----------------------------------------------------------------------------------------------
