@@ -103,3 +103,15 @@ LESSON 9: TUPLES
     - we can use array method. For example we can push a new value inside the array.
   
 Docs: https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 10: ENUMS
+  - Used to restrict choices value
+
+Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#enums
+Playground: https://www.typescriptlang.org/play/?#code/PTAEAUCcHsDcEsAm8B2BzUBDUBnALpPAMZ6hEAW0xApgFC0igCiAHpgLYAOANtaAIwAuWkWgp8oaigCu7XNUx4AwpRqgA3rQCQjHBx58hoWJm7S+Ad2jTuiUACM+qIpGrspeU6AAMAGgH+AEz+AMzajACCAJIAygAyTL7hYACyUQAi6QlJOmAA6lEAcukA8nk5jABiJQCqACoAEknJuPq8oIHCuaAAtKAAntZkmCignDAIiHzY+ITooNCQDtC8Iy19g9KgFiOkeNCg7JgA1nx45Hwo1CykJmZOKC5uHl6boOSYsNNjE0jfMuxHEtUPA8PBTPAAF7USDaaLxJigAC8oAA5Jh4DheKicmlMglkWj2EhENicgVimVCaiLKhENALDjtNV6g1CQAWHKVKKVRo5GJRAAafNoAF96KJxKR2P0YgpSCicPKVFQiNQAHQU0p5ADctGunEWpHUor1QA
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 11: 
