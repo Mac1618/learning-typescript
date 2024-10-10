@@ -1,4 +1,5 @@
 // DEFINING ARRAY VALUE
+// - NOTE: A type cannot be changed after being created.
 
 // EXAMPLE 1 - defining a single value to array
 // - uses 'const' not a 'type'
@@ -36,6 +37,5 @@ const data4: string[] | number[] = [1, 2, 3]; // either only number or only stri
 let seatAllotment: 'aile' | 'middle' | 'window';
 seatAllotment = 'aile';
 // seatAllotment = 'pilot';
-
 
 export {};

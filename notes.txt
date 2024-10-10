@@ -81,7 +81,8 @@ Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-al
 
 -----------------------------------------------------------------------------------------------
 
-LESSON 7: TYPE ALIASSES or ARRAYS
+LESSON 7: TYPE ALIASSES and ARRAYS
+- NOTE: you cannot use reopening of interface. Basically a type cannot be changed after being created.
 - 'Array<number>' or 'string[]' both has same functionality
 - 'type aliases' can be used for complex arrays
 
@@ -115,6 +116,7 @@ Playground: https://www.typescriptlang.org/play/?#code/PTAEAUCcHsDcEsAm8B2BzUBDU
 -----------------------------------------------------------------------------------------------
 
 LESSON 11: INTERFACE
-  - 
+  - With interface we can use inheritance and reopening of interface
 
 Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces
+Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces
