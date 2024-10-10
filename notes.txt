@@ -81,7 +81,7 @@ Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-al
 
 -----------------------------------------------------------------------------------------------
 
-LESSON 7: ARRAYS
+LESSON 7: TYPE ALIASSES or ARRAYS
 - 'Array<number>' or 'string[]' both has same functionality
 - 'type aliases' can be used for complex arrays
 
@@ -95,3 +95,11 @@ LESSON 8: UNIONS
 Docs: https://www.typescriptlang.org/docs/handbook/unions-and-intersections.html
 
 -----------------------------------------------------------------------------------------------
+
+LESSON 9: TUPLES
+  - Tuples is used to give a specific order inside an array.
+  - There are 2 problems with tuples to look out for.
+    - the array value is changable.
+    - we can use array method. For example we can push a new value inside the array.
+  
+Docs: https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple
