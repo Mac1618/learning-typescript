@@ -120,3 +120,52 @@ LESSON 11: INTERFACE
 
 Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces
 Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 12: TYPE ALIASSES VS INTERFACE
+  - type cannot use reopening of interface
+  - interface has a differnt approach in inheritance
+
+// TYPE ALIASES inheritance
+type Animal = {
+  name: string;
+}
+
+type Bear = Animal & { 
+  honey: boolean;
+}
+
+// INTERFACE inheritance
+interface Animal {
+  name: string;
+}
+
+interface Bear extends Animal {
+  honey: boolean;
+}
+
+Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces\
+
+-----------------------------------------------------------------------------------------------
+LESSON 13: Typescript Setup
+  - Staring to move on production setup with typescript
+
+Npm & Dependencies
+  - "npm init -y"             - generate a 'package.json' file
+  - "npm i lite-server"       - a server just like nodemon
+
+// lite server command to run the server
+  - "start": "lite-server"    - in terminal run "npm start" command
+
+Commands: 
+  - "tsc --init"    - generate a 'tsconfig.json' file
+  - "tsc -w"        - automatically generate the new changes in converter js file 
+
+Directories 
+  - "dist"          - stores the converted js file
+  - "src"           - stores the ts file
+
+Typescript Config
+  // command                 // location        // description
+  - "outDir": "./dist"       - /* Emit */       - file location of the js file to be converted.
