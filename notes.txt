@@ -148,6 +148,7 @@ interface Bear extends Animal {
 Docs: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces\
 
 -----------------------------------------------------------------------------------------------
+
 LESSON 13: Typescript Setup
   - Staring to move on production setup with typescript
 
@@ -169,3 +170,10 @@ Directories
 Typescript Config
   // command                 // location        // description
   - "outDir": "./dist"       - /* Emit */       - file location of the js file to be converted.
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 14: CLASS in Typescript
+  - usage of type inside a class.
+
+Docs: https://www.typescriptlang.org/docs/handbook/2/classes.html#class-members
