@@ -191,3 +191,12 @@ LESSON 16: GET and SET in CLASS
 - 'get' is just like a function where it return a value.
 
 Docs: https://medium.com/@tyliang/javascript-understanding-getter-and-setter-methods-in-classes-da9b579e5fa2
+
+-----------------------------------------------------------------------------------------------
+
+LESSON 17: INHERITANCE and PROTECTED in CLASS
+ - 'inheritance' allows to reuse the functionality of parent class without rewriting it.
+ - 'public', 'private' and 'protected' are called ACCESS MODIFIER
+ - NOTE: 'public' modifier will alway be the default but you can use it for clarity of the code.
+
+ Docs: https://www.typescriptlang.org/docs/handbook/2/classes.html#protected

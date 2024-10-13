@@ -1,17 +1,16 @@
 // -----------------------------------------------------------------------------------------------
-// LESSON 16: CLASS - Getters and Setters
-// - 'get' and 'set' is designed to make a 'private' property exposed outside the class
-// - NOTE: 'set' should not return anything. Event in ts it don't need to specify the return type.
-// - 'set' is use to set the value of your target variable.
-// - 'get' is just like a function where it return a value.
+// LESSON 17: CLASS - 'Protected' Access Modifier and Inheritance
+// - "Inheritance" allows to reuse the functionality of parent class without rewriting it.
+// - "Protected" gives access to a variable from parent class to children.
 
-class User16 {
+class User17 {
+	// changed to protected so it can be accessed to 'subUser17' class
+	protected _courseCount = 1;
+
 	private readonly city: string = 'San Pablo City';
-	private _courseCount = 1;
 	constructor(
 		public email: string, //
-		public name: string,
-		private userId: string
+		public name: string
 	) {}
 
 	// won't be accessible outside this class
@@ -20,8 +19,6 @@ class User16 {
 	}
 
 	// get the current value of '_courseCount'
-	// - get is mostly used to get a 'private' property value
-	// - it can also be use in 'private' property
 	get courseCount(): number {
 		return this._courseCount;
 	}
@@ -35,5 +32,12 @@ class User16 {
 	}
 }
 
-const newUser16 = new User16('one@16.com', 'Mac One - 16', '33k241');
-console.log('User 16: ', newUser16);
+// Inherites the User17 functionality
+class subUser17 extends User17 {
+	isFamily: boolean = true;
+
+	// change the "_courseCount" value to 4 from the parent
+	changeCouserCount() {
+		this._courseCount = 4;
+	}
+}
