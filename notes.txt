@@ -183,4 +183,11 @@ Docs: https://www.typescriptlang.org/docs/handbook/2/classes.html#class-members
 
 -----------------------------------------------------------------------------------------------
 
-LESSON 16:
+LESSON 16: GET and SET in CLASS
+- 'get' and 'set' is designed to make a 'private' property exposed outside the class
+
+- NOTE: 'set' should not return anything. Event in ts it don't need to specify the return type.
+- 'set' is use to set the value of your target variable.
+- 'get' is just like a function where it return a value.
+
+Docs: https://medium.com/@tyliang/javascript-understanding-getter-and-setter-methods-in-classes-da9b579e5fa2
