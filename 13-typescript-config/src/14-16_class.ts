@@ -76,6 +76,7 @@ class User16 {
 	}
 
 	// set the new value of '_courseCount'
+  // - set don't have a return type
 	set courseCount(courseNum: number) {
 		if (courseNum <= 1) {
 			throw new Error('Course should be more than 1');

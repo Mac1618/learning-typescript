@@ -65,6 +65,7 @@ class User16 {
         return this._courseCount;
     }
     // set the new value of '_courseCount'
+    // - set don't have a return type
     set courseCount(courseNum) {
         if (courseNum <= 1) {
             throw new Error('Course should be more than 1');
