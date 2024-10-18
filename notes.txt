@@ -205,5 +205,17 @@ LESSON 17: INHERITANCE and PROTECTED in CLASS
 
 LESSON 18: Implementation of INTERFACE with CLASS
   - you can implement types morethan the TakePhoto or Story interface have
+  - 'implements' in class is only used for 'interface'
 
 Docs: https://www.typescriptlang.org/docs/handbook/interfaces.html
+
+ -----------------------------------------------------------------------------------------------
+
+LESSON 19: Usage of Abstract class 
+ - "abstract class" uses extend just like "inheritance"
+ - "asbstract class" is like a blueprint
+ - "asbstract class" can use function just like normal class
+ - "abstract cannot" create an instance just like an "normal class"
+ - the "normal class" who extends the "abstract class" can create an instance with abstract class functionality
+
+Docs: https://www.tutorialsteacher.com/typescript/abstract-class
